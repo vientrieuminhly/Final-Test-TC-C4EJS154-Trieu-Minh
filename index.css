@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+    padding: 30px 20px;
+    color: red;
+}
+.play, .result{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+.img{
+    height: 120px;
+    width: 120px;
+}
+.choose-box,.result-box{
+    padding: 15px 20px 10px 20px ;
+    border: 1px solid firebrick;
+    border-radius: 20px;
+    position: relative;
+    background-color: white; 
+}
+.choose-box{
+    cursor: pointer;
+}
+.count,.instruction, .button-box{
+    font-size: 25px;
+    font-weight: bold;
+}
+.choose-box:hover{
+    box-shadow: 3px 32px 39px -13px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 32px 39px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 32px 39px -13px rgba(0,0,0,0.75);
+}
+.instruction{
+    width: 70%;
+    margin: auto;
+}
+.button{
+    margin: auto;
+    text-align: center;
+}
+.button-box{
+    margin: auto;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(15, 173, 15);
+    color: white;
+    cursor: pointer;
+}
+.game-result{
+    font-size: 20px;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    padding: 20px;
+}
+
